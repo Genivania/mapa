@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    gap: 100px;
+}
+path{
+    fill: #ECCEA7;
+    stroke: #ffffff;
+    stroke-width: 2px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+path:hover{
+    fill: #FA9E27;
+}
+
+.description{
+    background-color: #F5E7D3;
+    width: 35vh;
+    height: 40vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logo_estado{
+    background-color: #FA9E27;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    box-sizing: border-box ;
+    border: 4px solid #ffffff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;                               
+    font-weight: 900;
+    justify-content: center;
+
+}
+.logo_nome{
+    font-family: 'Inter', sans-serif;   
+    color: #FA9E27;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    gap: 25px   ;
+    
+}
+.menu-informativo{
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
