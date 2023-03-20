@@ -1,6 +1,11 @@
 'use strict'
 
+import {pesquisarSigla} from './estado.js'
+
+
+console.log(await pesquisarSigla("SP"))
 const mapa = document.querySelector('#map')
+
 
 const sigla = document.getElementById('logo_estado')
 const getEstado = ({target})=>{
