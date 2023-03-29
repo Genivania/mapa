@@ -3,9 +3,8 @@
 import {pesquisarSigla} from './estado.js'
 
 
-console.log(await pesquisarSigla("SP"))
+//console.log(await pesquisarSigla("SP"))
 const mapa = document.querySelector('#map')
-
 
 const sigla = document.getElementById('logo_estado')
 const getEstado = ({target})=>{
@@ -17,7 +16,5 @@ const getEstado = ({target})=>{
     sigla.innerHTML = estado;
 
 }
-
-
 
 mapa.addEventListener('click', getEstado )
