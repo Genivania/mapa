@@ -14,7 +14,6 @@ const getEstado = ({target})=>{
     console.log(estado)
 
     sigla.innerHTML = estado;
-
 }
 
 mapa.addEventListener('click', getEstado )
